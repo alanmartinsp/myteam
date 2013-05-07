@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+            >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Total de jogadores: "
+                />
+
+        <EditText
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:inputType="numberDecimal"
+                android:id="@+id/etTotalJogadores"
+                />
+
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COMEÇAR"
+                android:id="@+id/botaoOK"
+                />
+
+    </LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+            >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Time 1:  "
+                />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="#ef1010"
+                android:textSize="26sp"
+                android:id="@+id/tvJogadoresTime1"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+            >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Time 2:  "
+                />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="#ef1010"
+                android:textSize="26sp"
+                android:id="@+id/tvJogadoresTime2"
+                />
+
+    </LinearLayout>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="SORTEAR"
+            android:id="@+id/botaoSORTEAR"
+            android:visibility="invisible"
+            />
+
+</LinearLayout>
+
